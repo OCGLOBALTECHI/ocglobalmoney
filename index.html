@@ -2,83 +2,97 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OC Global Money Hub</title>
+<title>OC Global AI - Free Like Meta AI</title>
+<meta name="theme-color" content="#00c853">
 <style>
 body{margin:0; font-family:Arial; background:#0a0a0a; color:white; text-align:center}
-.top{padding:35px 20px; background:linear-gradient(135deg,#00c853,#009624)}
-.card{background:#151515; margin:15px; padding:20px; border-radius:20px; border:1px solid #333; text-align:left}
+.top{padding:25px; background:linear-gradient(135deg,#00c853,#009624)}
+.card{background:#151515; margin:12px; padding:18px; border-radius:16px; border:1px solid #333; text-align:left}
 .center{text-align:center}
-.btn{display:block; padding:15px; border-radius:12px; text-decoration:none; font-weight:bold; margin:12px 0; text-align:center; cursor:pointer; border:none; width:100%}
-.green{background:#00c853; color:black} .red{background:red; color:white} .white{background:white; color:black} .dark{background:#222; color:white; border:1px solid #444} .pink{background:#fe2c55; color:white}
-.bank-box{background:#111; padding:15px; border-radius:12px; border:1px dashed #00c853; margin:10px 0; line-height:1.6}
-.video-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:15px}
-iframe{border:none; border-radius:12px}
+.btn{display:block; padding:13px; border-radius:10px; text-decoration:none; font-weight:bold; margin:8px 0; text-align:center; border:none; width:100%; cursor:pointer}
+.green{background:#00c853; color:black} .red{background:red; color:white} .pink{background:#fe2c55; color:white} .blue{background:#0084ff; color:white}
+.ad-box{background:#111; border:1px dashed #ff0; padding:12px; border-radius:10px; margin:10px 0; text-align:center; font-size:13px}
+#chatBox{background:#000; height:280px; overflow:auto; padding:10px; border-radius:10px; text-align:left}
+input, textarea{padding:12px; border-radius:8px; border:none; width:100%; background:#222; color:white; margin:6px 0; box-sizing:border-box}
 </style>
 </head>
 <body>
 <div class="top">
-<h1 style="margin:0">OC Global Money Hub 🚀</h1>
-<p>Port Harcourt | Websites That Make Money</p>
+<h1>OC Global AI 🤖</h1>
+<p>Free AI like Meta AI • By Odera Chidalu Vitalis • PH</p>
+<p>YouTube @Roseline-y3n • TikTok @lastborn.68</p>
 </div>
 
-<div class="card center">
-<h2>Our Services</h2>
-<p>✅ Business Website - ₦120k</p>
-<p>✅ E-commerce - ₦250k</p>
-<a class="btn green" href="https://wa.me/2349078617514">💬 Chat on WhatsApp: 09078617514</a>
+<!-- AD 1 -->
+<div class="card ad-box">
+🔥 AD: Need Website? ₦120k • Pay to Moniepoint <b>9078617514</b> Odera Chidalu Vitalis<br>
+<a href="https://wa.me/2349078617514" class="btn green" style="margin-top:8px">Order Website</a>
 </div>
 
+<!-- AI CHAT -->
 <div class="card">
-<h2 style="text-align:center">💳 Pay - 2 Ways</h2>
-<div class="bank-box">
-<b>Bank:</b> Moniepoint / Opay<br>
-<b>Name:</b> Odera Chidalu Vitalis<br>
-<b>Number:</b> 9078617514
+<h3>🤖 Ask OC Global AI — FREE (Mind of All Internet)</h3>
+<div id="chatBox"><p><b>OC AI:</b> Hi! I know all internet like Meta AI. Ask me anything!</p></div>
+<div style="display:flex; gap:6px; margin-top:10px">
+<input id="userInput" placeholder="Ask anything...">
+<button onclick="askAI()" class="btn blue" style="width:30%">Send</button>
 </div>
-<button class="btn green" onclick="payWithPaystack(120000)">Pay ₦120k - Website</button>
-<button class="btn dark" onclick="payWithPaystack(60000)">Pay ₦60k - Landing Page</button>
 </div>
 
+<!-- WEBSITE BUILDER INSIDE -->
 <div class="card center">
-<h2>🎥 YouTube - Owen and Roseline</h2>
-<p>@Roseline-y3n • 47 Videos</p>
-<iframe width="100%" height="220" src="https://www.youtube.com/embed?listType=user_uploads&list=Roseline-y3n" allowfullscreen></iframe>
-<a class="btn red" href="https://youtube.com/@Roseline-y3n">▶️ Subscribe on YouTube</a>
+<h3>🌐 Create Website Inside OC Global AI</h3>
+<p style="font-size:13px">Your site: ocglobalmoney.vercel.app/site/YOURNAME - Pay ₦5k to 9078617514</p>
+<input id="bizName" placeholder="Business Name e.g Mama Put">
+<input id="bizPhone" placeholder="WhatsApp e.g 09078617514">
+<textarea id="bizDesc" placeholder="What do you sell?"></textarea>
+<button class="btn green" onclick="createSite()">Create My Website Now</button>
+<div id="preview" style="display:none; margin-top:12px"></div>
 </div>
 
+<!-- YOUTUBE STILL WORKS -->
 <div class="card center">
-<h2>🎵 TikTok - @lastborn.68</h2>
-<p>Follow for more content!</p>
-
-<!-- TikTok Embed - Shows your TikTok profile videos -->
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lastborn.68" data-unique-id="lastborn.68" style="max-width:325px; min-width:325px; margin:0 auto">
-<section> <a target="_blank" href="https://www.tiktok.com/@lastborn.68">@lastborn.68</a> </section>
-</blockquote>
-<script async src="https://www.tiktok.com/embed.js"></script>
-
-<a class="btn pink" href="https://www.tiktok.com/@lastborn.68">🎵 Follow on TikTok - @lastborn.68</a>
-<a class="btn white" href="https://www.tiktok.com/@lastborn.68/video">🔥 Watch My TikToks</a>
+<h3>🎥 YouTube @Roseline-y3n (Still Inside)</h3>
+<iframe width="100%" height="200" src="https://www.youtube.com/embed?listType=user_uploads&list=Roseline-y3n" allowfullscreen></iframe>
+<a href="https://youtube.com/@Roseline-y3n" class="btn red">▶️ Subscribe @Roseline-y3n</a>
 </div>
 
-<p style="opacity:0.4; font-size:11px; padding:20px">© 2026 OC Global - Odera Chidalu Vitalis - No Base44</p>
+<!-- TIKTOK STILL WORKS -->
+<div class="card center ad-box">
+<h3>🎵 TikTok @lastborn.68 (Still Inside)</h3>
+<a href="https://tiktok.com/@lastborn.68" class="btn pink">Follow @lastborn.68</a>
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lastborn.68" style="max-width:100%"> <section> <a target="_blank" href="https://www.tiktok.com/@lastborn.68">@lastborn.68</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+
+<!-- GOOGLE ADSENSE SPACE -->
+<div class="card center ad-box" style="border-color:#00c853">
+<b>Google AdSense Earns Here</b>
+<p style="font-size:11px">After AdSense approval, your ads show here</p>
+</div>
+
+<!-- BANK -->
+<div class="card center">
+<h4>💳 Support / Payment</h4>
+<p>Moniepoint/Opay<br><b>9078617514 - Odera Chidalu Vitalis</b></p>
+<button class="btn green" onclick="payWithPaystack(1000)">Donate ₦1000</button>
+</div>
 
 <script src="https://js.paystack.co/v1/inline.js"></script>
 <script>
-function payWithPaystack(amount){
-  var handler = PaystackPop.setup({
-    key: 'pk_live_16a8e4130e54cdbd8eb5a693ae37a52d874e3ee0',
-    email: 'customer@ocglobal.com',
-    amount: amount * 100,
-    currency: 'NGN',
-    callback: function(response){
-      alert('Paid! Ref: ' + response.reference);
-      window.location.href = "https://wa.me/2349078617514?text=Paid " + amount + " Ref: " + response.reference;
-    },
-    onClose: function(){}
-  });
-  handler.openIframe();
-}
-</script>
-</body>
-</html>
-
+// AI CHAT - Connects to Groq (mind of internet)
+let chatCount = 0;
+async function askAI(){
+  const input = document.getElementById('userInput');
+  const box = document.getElementById('chatBox');
+  if(!input.value) return;
+  const q = input.value;
+  chatCount++;
+  box.innerHTML += `<p><b>You:</b> ${q}</p><p id="thinking"><b>OC AI:</b> <i>Thinking with all internet...</i></p>`;
+  input.value = ''; box.scrollTop = box.scrollHeight;
+  
+  try{
+    const res = await fetch('/api/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({message:q})});
+    const data = await res.json();
+    document.getElementById('thinking').innerHTML = `<b>OC AI:</b> ${data.reply}`;
+  }catch(e){
+    document.getElementById('thinking').innerHTML = `<b>OC AI:</b> I know all internet! You asked "${q}". Need website? Pay to 9078617514. Follow YouTube @Roseline-y3n & TikTok @lastborn.68! ${chatCount%3==
