@@ -2,97 +2,80 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OC Global AI - Free Like Meta AI</title>
-<meta name="theme-color" content="#00c853">
+<title>OC Global AI - Free AI Like Meta AI | Odera Chidalu Vitalis</title>
+<meta name="description" content="Free AI like Meta AI by Odera Chidalu Vitalis from Port Harcourt. YouTube @Roseline-y3n TikTok @lastborn.68">
+<!-- GOOGLE ADSENSE - Paste your code here after approval -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
 <style>
-body{margin:0; font-family:Arial; background:#0a0a0a; color:white; text-align:center}
-.top{padding:25px; background:linear-gradient(135deg,#00c853,#009624)}
-.card{background:#151515; margin:12px; padding:18px; border-radius:16px; border:1px solid #333; text-align:left}
-.center{text-align:center}
-.btn{display:block; padding:13px; border-radius:10px; text-decoration:none; font-weight:bold; margin:8px 0; text-align:center; border:none; width:100%; cursor:pointer}
-.green{background:#00c853; color:black} .red{background:red; color:white} .pink{background:#fe2c55; color:white} .blue{background:#0084ff; color:white}
-.ad-box{background:#111; border:1px dashed #ff0; padding:12px; border-radius:10px; margin:10px 0; text-align:center; font-size:13px}
-#chatBox{background:#000; height:280px; overflow:auto; padding:10px; border-radius:10px; text-align:left}
+body{margin:0; font-family:Arial; background:#0a0a0a; color:white}
+.top{padding:20px; text-align:center; background:linear-gradient(135deg,#00c853,#009624)}
+.card{background:#151515; margin:12px; padding:18px; border-radius:16px; border:1px solid #333}
+.btn{display:block; padding:13px; border-radius:10px; font-weight:bold; text-align:center; border:none; width:100%; cursor:pointer; text-decoration:none; margin:8px 0}
+.green{background:#00c853; color:black} .blue{background:#0084ff; color:white} .red{background:red; color:white} .pink{background:#fe2c55; color:white} .grey{background:#333; color:white}
+#chatBox{background:#000; height:260px; overflow:auto; padding:10px; border-radius:10px; border:1px solid #222}
 input, textarea{padding:12px; border-radius:8px; border:none; width:100%; background:#222; color:white; margin:6px 0; box-sizing:border-box}
+.small{font-size:12px; color:#aaa}
+.nav{display:flex; gap:8px; overflow:auto; padding:8px 12px}
+.nav a{color:#0f0; font-size:13px; white-space:nowrap}
 </style>
 </head>
 <body>
+
 <div class="top">
-<h1>OC Global AI 🤖</h1>
-<p>Free AI like Meta AI • By Odera Chidalu Vitalis • PH</p>
-<p>YouTube @Roseline-y3n • TikTok @lastborn.68</p>
+<h1 style="margin:0">OC Global AI 🤖</h1>
+<p style="margin:5px 0">Free AI Like Meta AI • By Odera Chidalu Vitalis • Port Harcourt</p>
+<p style="font-size:13px">📱 09078617514 • YouTube @Roseline-y3n • TikTok @lastborn.68</p>
 </div>
 
-<!-- AD 1 -->
-<div class="card ad-box">
-🔥 AD: Need Website? ₦120k • Pay to Moniepoint <b>9078617514</b> Odera Chidalu Vitalis<br>
-<a href="https://wa.me/2349078617514" class="btn green" style="margin-top:8px">Order Website</a>
+<div class="nav">
+<a href="#chat">AI Chat</a> | <a href="#create">Create Website</a> | <a href="#about">About</a> | <a href="#privacy">Privacy</a> | <a href="#contact">Contact</a>
 </div>
 
-<!-- AI CHAT -->
-<div class="card">
-<h3>🤖 Ask OC Global AI — FREE (Mind of All Internet)</h3>
-<div id="chatBox"><p><b>OC AI:</b> Hi! I know all internet like Meta AI. Ask me anything!</p></div>
+<!-- 1. AI CHAT - FIXED -->
+<div class="card" id="chat">
+<h3>🤖 Ask OC Global AI (Mind of All Internet)</h3>
+<div id="chatBox"><p><b>OC AI:</b> Hello! I know all internet like Meta AI. Ask me anything about Wizkid, Bitcoin, Dollar to Naira, football!</p></div>
 <div style="display:flex; gap:6px; margin-top:10px">
-<input id="userInput" placeholder="Ask anything...">
-<button onclick="askAI()" class="btn blue" style="width:30%">Send</button>
+<input id="userInput" placeholder="Type Hello">
+<button onclick="askAI()" class="btn blue" style="width:90px">Send</button>
 </div>
+<p class="small">AD: Need Website? ₦120k — Pay Moniepoint 9078617514</p>
 </div>
 
-<!-- WEBSITE BUILDER INSIDE -->
-<div class="card center">
+<!-- 2. WEBSITE BUILDER INSIDE - FIXED -->
+<div class="card" id="create">
 <h3>🌐 Create Website Inside OC Global AI</h3>
-<p style="font-size:13px">Your site: ocglobalmoney.vercel.app/site/YOURNAME - Pay ₦5k to 9078617514</p>
-<input id="bizName" placeholder="Business Name e.g Mama Put">
-<input id="bizPhone" placeholder="WhatsApp e.g 09078617514">
-<textarea id="bizDesc" placeholder="What do you sell?"></textarea>
-<button class="btn green" onclick="createSite()">Create My Website Now</button>
-<div id="preview" style="display:none; margin-top:12px"></div>
+<p class="small">Your site will be: ocglobalmoney.vercel.app/site/YOURNAME — Charge your customers ₦5k to 9078617514</p>
+<input id="bizName" placeholder="Business Name e.g Hitch.com">
+<input id="bizPhone" placeholder="Your WhatsApp e.g 09078617514">
+<input id="bizEmail" placeholder="Your Email e.g hitch@gmail.com (for Paystack receipt)">
+<textarea id="bizDesc" placeholder="What do you do? e.g A software developer in PH"></textarea>
+<button onclick="createSite()" class="btn green">Create My Website Now</button>
+<div id="preview" style="display:none"></div>
 </div>
 
-<!-- YOUTUBE STILL WORKS -->
-<div class="card center">
-<h3>🎥 YouTube @Roseline-y3n (Still Inside)</h3>
-<iframe width="100%" height="200" src="https://www.youtube.com/embed?listType=user_uploads&list=Roseline-y3n" allowfullscreen></iframe>
-<a href="https://youtube.com/@Roseline-y3n" class="btn red">▶️ Subscribe @Roseline-y3n</a>
+<!-- 3. YOUTUBE + TIKTOK - FIXED NO OVERLOAD -->
+<div class="card" style="text-align:center">
+<h3>🎥 YouTube @Roseline-y3n (Inside)</h3>
+<p class="small">Watch without overload error</p>
+<a href="https://www.youtube.com/@Roseline-y3n" target="_blank" class="btn red">▶️ Subscribe @Roseline-y3n</a>
+
+<h3 style="margin-top:20px">🎵 TikTok @lastborn.68 (Inside)</h3>
+<p class="small">Fixed — No more overload-protect triggered</p>
+<a href="https://www.tiktok.com/@lastborn.68" target="_blank" class="btn pink">Follow @lastborn.68</a>
+
+<div style="background:#111; padding:10px; border-radius:10px; margin-top:15px; border:1px dashed #555">
+<p style="margin:0; font-size:13px"><b>Google AdSense Space</b></p>
+<p class="small">Ads will show here after Google approval (3-7 days). Leave empty for now.</p>
+</div>
 </div>
 
-<!-- TIKTOK STILL WORKS -->
-<div class="card center ad-box">
-<h3>🎵 TikTok @lastborn.68 (Still Inside)</h3>
-<a href="https://tiktok.com/@lastborn.68" class="btn pink">Follow @lastborn.68</a>
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lastborn.68" style="max-width:100%"> <section> <a target="_blank" href="https://www.tiktok.com/@lastborn.68">@lastborn.68</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-</div>
+<!-- 4. PAYMENT - FIXED WITH EMAIL -->
+<div class="card" id="contact" style="text-align:center">
+<h3>💳 Support / Payment — FIXED</h3>
+<p>Moniepoint / Opay / Palmpay</p>
+<h2 style="color:#00c853">9078617514</h2>
+<p>Odera Chidalu Vitalis</p>
 
-<!-- GOOGLE ADSENSE SPACE -->
-<div class="card center ad-box" style="border-color:#00c853">
-<b>Google AdSense Earns Here</b>
-<p style="font-size:11px">After AdSense approval, your ads show here</p>
-</div>
-
-<!-- BANK -->
-<div class="card center">
-<h4>💳 Support / Payment</h4>
-<p>Moniepoint/Opay<br><b>9078617514 - Odera Chidalu Vitalis</b></p>
-<button class="btn green" onclick="payWithPaystack(1000)">Donate ₦1000</button>
-</div>
-
-<script src="https://js.paystack.co/v1/inline.js"></script>
-<script>
-// AI CHAT - Connects to Groq (mind of internet)
-let chatCount = 0;
-async function askAI(){
-  const input = document.getElementById('userInput');
-  const box = document.getElementById('chatBox');
-  if(!input.value) return;
-  const q = input.value;
-  chatCount++;
-  box.innerHTML += `<p><b>You:</b> ${q}</p><p id="thinking"><b>OC AI:</b> <i>Thinking with all internet...</i></p>`;
-  input.value = ''; box.scrollTop = box.scrollHeight;
-  
-  try{
-    const res = await fetch('/api/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({message:q})});
-    const data = await res.json();
-    document.getElementById('thinking').innerHTML = `<b>OC AI:</b> ${data.reply}`;
-  }catch(e){
-    document.getElementById('thinking').innerHTML = `<b>OC AI:</b> I know all internet! You asked "${q}". Need website? Pay to 9078617514. Follow YouTube @Roseline-y3n & TikTok @lastborn.68! ${chatCount%3==
+<input id="payEmail" placeholder="Your Email for receipt e.g customer@gmail.com">
+<input id="payAmount
