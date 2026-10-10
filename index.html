@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OC GLOBAL MONEY - Professional Business Websites</title>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#000;color:#fff}
+.header{background:#111;padding:20px;text-align:center;border-bottom:3px solid #00ff88}
+.header h1{color:#00ff88;font-size:30px;letter-spacing:1px}
+.header span{color:#fff}
+.header p{color:#aaa;margin-top:5px;font-size:13px}
+.hero{background:linear-gradient(180deg,#111,#000);padding:40px 20px;text-align:center}
+.hero h2{font-size:26px;margin-bottom:12px;color:#fff}
+.hero p{color:#aaa;max-width:650px;margin:0 auto 15px auto;font-size:14px}
+.btn{padding:14px 28px;border:none;border-radius:30px;font-weight:bold;font-size:15px;cursor:pointer;margin:8px;display:inline-block;text-decoration:none}
+.btn-green{background:#00ff88;color:#000}
+.btn-orange{background:#ff4400;color:#fff}
+.btn-wa{background:#25D366;color:#fff}
+.social{padding:12px;text-align:center;background:#0a0a0a;border-bottom:1px solid #222}
+.social a{margin:0 6px;padding:7px 14px;border-radius:20px;color:#fff;text-decoration:none;font-size:12px;font-weight:bold}
+.yt{background:#FF0000}.tk{background:#000;border:1px solid #555}
+.pricing{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;padding:30px 15px;background:#0a0a0a}
+.card{background:#1a1a1a;border:1px solid #333;border-radius:15px;padding:25px;width:300px;text-align:center}
+.card h3{color:#00ff88;margin-bottom:8px}
+.card .price{color:#00ff88;font-size:32px;font-weight:bold;margin:12px 0}
+.card ul{list-style:none;text-align:left;color:#ccc;font-size:13px;margin:15px 0}
+.card ul li{margin:8px 0}
+.card ul li:before{content:"✅ ";color:#00ff88}
+.card.popular{border:2px solid #00ff88;transform:scale(1.05)}
+.badge{background:#00ff88;color:#000;padding:4px 10px;border-radius:20px;font-size:10px;font-weight:bold}
+.features{padding:30px 20px;text-align:center;background:#111}
+.features h2{color:#00ff88;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;max-width:900px;margin:0 auto}
+.grid div{background:#1a1a1a;padding:20px;border-radius:12px;border:1px solid #333}
+.contact{padding:30px 20px;text-align:center;background:#000;border-top:2px solid #00ff88}
+.footer{background:#111;padding:15px;text-align:center;color:#666;font-size:11px}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>OC <span>GLOBAL MONEY</span></h1>
+<p>Professional Websites for Business People | By Odera Chidalu Vitalis | Port Harcourt</p>
+</div>
+
+<div class="social">
+<a class="yt" href="https://www.youtube.com/@Roseline-y3n" target="_blank">▶️ YouTube</a>
+<a class="tk" href="https://www.tiktok.com/@lastborn.68" target="_blank">🎵 TikTok @lastborn.68</a>
+<a style="background:#25D366" href="https://wa.me/2349078617514?text=Hi%20OC%20GLOBAL%20MONEY%20I%20need%20business%20website" target="_blank">💬 WhatsApp: 09078617514</a>
+</div>
+
+<div class="hero">
+<h2>We Build Professional Websites That Bring Customers & Money!</h2>
+<p>For Shops, Restaurants, Schools, Churches, Real Estate, Fashion Designers, Salon, POS Business, Supermarkets - ALL Businesses in Nigeria!</p>
+<p style="color:#00ff88;font-weight:bold">✓ Fast Delivery 24-48hrs ✓ Paystack Secure ✓ Free Hosting Setup</p>
+<a class="btn btn-green" href="#pricing">See Our Prices 👇</a>
+<a class="btn btn-wa" href="https://wa.me/2349078617514?text=Hello%20OC%20GLOBAL%20MONEY%20I%20want%20business%20website" target="_blank">💬 Chat on WhatsApp</a>
+</div>
+
+<div class="pricing" id="pricing">
+
+<div class="card">
+<h3>STARTER</h3>
+<p style="color:#aaa;font-size:12px">For Small Business</p>
+<div class="price">₦85,000</div>
+<ul>
+<li>1 Page Business Website</li>
+<li>WhatsApp Chat Button</li>
+<li>Google Map Location</li>
+<li>Business Photos & Info</li>
+<li>Free Hosting (vercel.app)</li>
+<li>24hrs Delivery</li>
+</ul>
+<button class="btn btn-green" onclick="pay(85000,'OC Starter - 85k')">Pay ₦85,000 Now</button>
+</div>
+
+<div class="card popular">
+<span class="badge">MOST POPULAR</span>
+<h3>BUSINESS PRO</h3>
+<p style="color:#aaa;font-size:12px">Best for Growing Business</p>
+<div class="price">₦120,000</div>
+<ul>
+<li>5 Pages (Home, About, Services, Gallery, Contact)</li>
+<li>Paystack Payment Button</li>
+<li>WhatsApp + YouTube + TikTok Links</li>
+<li>Contact Form + Map</li>
+<li>Google Search Ready (SEO)</li>
+<li>Free Domain Setup + Hosting</li>
+<li>48hrs Delivery + 1 Month Support</li>
+</ul>
+<button class="btn btn-orange" onclick="pay(120000,'OC Business Pro - 120k')">Pay ₦120,000 - Most Popular</button>
+</div>
+
+<div class="card">
+<h3>PREMIUM STORE</h3>
+<p style="color:#aaa;font-size:12px">For E-commerce & Big Business</p>
+<div class="price">₦250,000</div>
+<ul>
+<li>Full Online Store Website</li>
+<li>Unlimited Products Upload</li>
+<li>Paystack + Bank Transfer</li>
+<li>Admin Panel to Manage</li>
+<li>WhatsApp Order Alerts</li>
+<li>Customer Accounts</li>
+<li>1 Year Support + Training</li>
+</ul>
+<button class="btn btn-green" onclick="pay(250000,'OC Premium Store - 250k')">Pay ₦250,000 Now</button>
+</div>
+
+</div>
+
+<div class="features">
+<h2>Why 100+ Businesses Trust OC GLOBAL MONEY</h2>
+<div class="grid">
+<div><h4 style="color:#00ff88">📱 Mobile Perfect</h4><p style="color:#aaa;font-size:12px;margin-top:5px">Your customers use phones - Our sites work perfect on all phones!</p></div>
+<div><h4 style="color:#00ff88">⚡ Super Fast</h4><p style="color:#aaa;font-size:12px;margin-top:5px">Loads in 2 seconds - Customers won't leave!</p></div>
+<div><h4 style="color:#00ff88">💳 Collect Money Online</h4><p style="color:#aaa;font-size:12px;margin-top:5px">Paystack payment - Customers pay you from website!</p></div>
+<div><h4 style="color:#00ff88">🔍 Appear on Google</h4><p style="color:#aaa;font-size:12px;margin-top:5px">When people search your business - They find you!</p></div>
+</div>
+</div>
+
+<div class="contact">
+<h2 style="color:#00ff88">Ready to Take Your Business Online?</h2>
+<p style="color:#aaa;margin:12px 0">Chat us on WhatsApp - We reply in 5 minutes - Let's build your website today!</p>
+<a class="btn btn-wa" href="https://wa.me/2349078617514?text=Hello%20OC%20GLOBAL%20MONEY%20I%20need%20website%20for%20my%20business%20Name:%20_%20Business%20type:%20_%20Location:%20_" target="_blank" style="font-size:18px;padding:18px 35px">💬 Chat OC GLOBAL MONEY on WhatsApp</a>
+<p style="margin-top:20px;color:#666;font-size:12px;line-height:1.8">
+Moniepoint: 9078617514 - Odera Chidalu Vitalis<br>
+WhatsApp: +2349078617514 | YouTube: https://www.youtube.com/@Roseline-y3n | TikTok: @lastborn.68<br>
+Port Harcourt, Rivers State, Nigeria | Email: ocglobalmoney@gmail.com<br>
+We Build Websites for Business People - Shops, Restaurants, Schools, Churches, Real Estate, Fashion, Salon, All Businesses!
+</p>
+</div>
+
+<div class="footer">© 2026 OC GLOBAL MONEY by Odera Chidalu Vitalis | Professional Business Websites | Port Harcourt | All Rights Reserved | Moniepoint 9078617514</div>
+
+<script>
+const PAYSTACK_KEY = "pk_live_16a8e4130e54cdbd8eb5a693ae37a52d874e3ee0";
+function pay(amount, product){
+ var h=PaystackPop.setup({
+  key:PAYSTACK_KEY,
+  email:'customer@ocglobalmoney.com',
+  amount:amount*100,
+  currency:'NGN',
+  ref:'OCGM_'+Math.floor(Math.random()*1000000000),
+  metadata:{custom_fields:[{display_name:"Product",variable_name:"product",value:product}]},
+  callback:function(res){
+   alert('✅ Payment Successful! Ref:'+res.reference+' - OC GLOBAL MONEY will contact you on WhatsApp now for your business website!');
+   window.open('https://wa.me/2349078617514?text=PAID%20OC%20GLOBAL%20MONEY%20-%20'+product+'%20Ref:'+res.reference+'%20Amount:'+amount+'%20I%20need%20my%20business%20website%20now!','_blank');
+  },
+  onClose:function(){alert('Payment window closed - You can chat WhatsApp to pay to Moniepoint 9078617514 manually');}
+ });
+ h.openIframe();
+}
+</script>
+</body>
+</html>
